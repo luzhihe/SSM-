@@ -1,0 +1,7 @@
+com/service/serviceImpl/PeopleServiceImpl.class
+com/model/People.class
+com/dao/PeopleMapper.class
+com/service/PeopleService.class
+com/dao/LoginMapper.class
+com/model/User.class
+com/controller/PeopleController.class
