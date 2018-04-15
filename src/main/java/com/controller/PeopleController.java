@@ -45,4 +45,11 @@ public String login(){
         mav.setViewName("/index");
         return mav;
     }
+
+    @RequestMapping("/smallProgram")
+    @ResponseBody
+    public String smallProgram(){
+        String dd = "weixin smallProgram";
+        return dd;
+    }
 }

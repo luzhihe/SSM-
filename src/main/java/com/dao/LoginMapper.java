@@ -15,6 +15,6 @@ public interface LoginMapper {
      * @param userName
      * @return
      */
-    @Select("select user_name,user_id,password,created_time from t_user where user_name = #{userName}")
+    @Select("select user_name,user_id,password,created_time from user where user_name = #{userName}")
     User findByUserName(String userName);
 }

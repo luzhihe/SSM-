@@ -151,12 +151,12 @@
       <artifactId>commons-collections</artifactId>
       <version>3.2</version>
     </dependency>
-    <!--ES maven托管-->
-    <dependency>
-      <groupId>org.elasticsearch</groupId>
-      <artifactId>elasticsearch</artifactId>
-      <version>${es.version}</version>
-    </dependency>
+    <!--&lt;!&ndash;ES maven托管&ndash;&gt;-->
+    <!--<dependency>-->
+      <!--<groupId>org.elasticsearch</groupId>-->
+      <!--<artifactId>elasticsearch</artifactId>-->
+      <!--<version>${es.version}</version>-->
+    <!--</dependency>-->
 
   </dependencies>
   <build>
